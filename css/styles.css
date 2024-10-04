@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: FFFFFF; /* Dominant color from the design */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  h1, h2, h3, p {
+    margin: 0 0 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo { 
+    font-weight: 700;
+    font-size: 18px;
+    /* line-height: 21px; */ 
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+  }
+  
+  .nav-list {
+    width: 261px;
+    height: 24px;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 24px; */ 
+    line-height: 150%;
+    letter-spacing: 0.02em;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #2e2f42;
+  }
+  
+  .contact-info {
+    margin-top: 10px;
+  }
+  
+  .contact-info ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .contact-link:hover,
+  .contact-link:focus {
+    color: #434455;
+  }
+  
+  /* Main Styles */
+  .hero-section {
+    padding: 40px 20px;
+    background-color: #eaeaea;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+  }
+  
+  .btn-order {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-order:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Strategy Section */
+  .strategy-list {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .strategy-list li {
+    flex: 1 1 calc(25% - 40px);
+    margin: 20px;
+  }
+  
+  /* Team Section */
+  .team-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .team-list li {
+    flex: 1 1 calc(25% - 40px);
+    margin: 20px;
+  }
+  
+  /* Portfolio Section */
+  .portfolio-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .portfolio-list li {
+    flex: 1 1 calc(33.33% - 40px);
+    margin: 20px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .strategy-list, .team-list, .portfolio-list {
+      flex-direction: column;
+    }
+  }
