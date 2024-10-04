@@ -2,12 +2,19 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: #fff;
-    
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
   }
   
   a {
     text-decoration: none;
     color: inherit;
+  }
+  
+  h1, h2, h3, p {
+    margin: 0 0 20px;
+  }
   
   /* Header Styles */
   header {
@@ -21,43 +28,67 @@ body {
     align-items: center;
   }
   
-  .logo {
+  /* Стилі для логотипа */
+.logo {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    line-height: 117%;
+    font-size: 18px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
   }
   
+  .logo-span {
+    color: #2e2f42;
+  }
+  
+  /* Стилі навігації */
   .nav-list {
-    display: flex;
     list-style: none;
+    display: flex;
   }
   
   .nav-link {
-    margin-left: 20px;
     font-weight: 500;
-    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+    margin-left: 20px;
   }
   
   .nav-link:hover,
   .nav-link:focus {
-    color: #007bff;
+    color: #404bbf;
   }
   
-  .contact-info {
-    margin-top: 10px;
-  }
-  
+  /* Стилі для контактної інформації */
   .contact-info ul {
     display: flex;
     list-style: none;
+    padding: 0;
+  }
+  
+  .contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+    margin-right: 20px;
   }
   
   .contact-link:hover,
   .contact-link:focus {
-    color: #007bff;
+    color: #404bbf;
   }
+  
+  address {
+    font-style: normal;
+  }
+  
   
   /* Main Styles */
   .hero-section {
