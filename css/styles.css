@@ -19,42 +19,35 @@ body {
   /* Header Styles */
   header {
     background-color: #f8f8f8;
-    width: 1440px;
-    height: 72px;;
+    padding: 20px 0;
   }
   
   nav {
-    width: 261px;
-    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
-  .logo { 
+  .logo {
+    font-size: 24px;
     font-weight: 700;
-    font-size: 18px;
-    /* line-height: 21px; */ 
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
+    color: #333;
   }
   
   .nav-list {
-    width: 261px;
-    height: 24px;   
+    display: flex;
+    list-style: none;
   }
   
   .nav-link {
-    font-family: "Roboto", sans-serif;
+    margin-left: 20px;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #333;
   }
   
   .nav-link:hover,
   .nav-link:focus {
-    color: #2e2f42;
+    color: #007bff;
   }
   
   .contact-info {
@@ -68,46 +61,30 @@ body {
   
   .contact-link:hover,
   .contact-link:focus {
-    color: #434455;
+    color: #007bff;
   }
   
   /* Main Styles */
   .hero-section {
-    width: 1440px;
-    height: 600px;
-    background: #2e2f42;
+    padding: 40px 20px;
+    background-color: #eaeaea;
+    text-align: center;
   }
   
   .hero-title {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 56px;
-   /* line-height: 60px; */ 
-   line-height: 107%;
-   letter-spacing: 0.02em;
-   text-align: center;
-   color: #fff;
+    font-size: 36px;
   }
   
   .btn-order {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
     border: none;
     cursor: pointer;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
   }
   
   .btn-order:hover {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    /* line-height: 24px; */ 
-    line-height: 150%;
-    letter-spacing: 0.04em;
-    color: #fff;
+    background-color: #0056b3;
   }
   
   /* Strategy Section */
