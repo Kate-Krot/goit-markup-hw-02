@@ -29,7 +29,7 @@ body {
   }
   
   /* Стилі для логотипа */
-.logo {
+ .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -91,9 +91,9 @@ body {
   }
   
   
-  /* Main Styles */
- /* Перша секція */
-.hero-section {
+   /* Main Styles */
+   /* Перша секція */
+  .hero-section {
     background-color: #2e2f42;
     text-align: center;
     padding: 40px 20px;
@@ -128,7 +128,7 @@ body {
   }
   
   /* Друга секція */
-.strategy-section {
+ .strategy-section {
     padding: 40px 20px;
     background-color: #ffffff;
   }
@@ -171,7 +171,7 @@ body {
   
   
   /* Третя секція */
-.team-section {
+ .team-section {
     background-color: #F4F4FD;
     padding: 40px 20px;
   }
@@ -223,7 +223,7 @@ body {
   }
   
   /* Четверта секція */
-.portfolio-section {
+ .portfolio-section {
     background-color: #F4F4FD;
     padding: 40px 20px;
   }
@@ -275,7 +275,7 @@ body {
   }
   
   /* Футер */
-.footer {
+  .footer {
     background-color: #2e2f42;
     padding: 40px 20px;
     text-align: center;
