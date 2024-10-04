@@ -79,19 +79,35 @@ body {
   }
   
   .hero-title {
-    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+   /* line-height: 60px; */ 
+   line-height: 107%;
+   letter-spacing: 0.02em;
+   text-align: center;
+   color: #fff;
   }
   
   .btn-order {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
     border: none;
     cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
   }
   
   .btn-order:hover {
-    background-color: #0056b3;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 24px; */ 
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
   }
   
   /* Strategy Section */
