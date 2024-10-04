@@ -19,7 +19,8 @@ body {
   /* Header Styles */
   header {
     background-color: #f8f8f8;
-    padding: 20px 0;
+    width: 1440px;
+    height: 72px;;
   }
   
   nav {
