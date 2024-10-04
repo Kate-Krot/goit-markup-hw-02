@@ -171,7 +171,7 @@ body {
   
   
   /* Третя секція */
- .team-section {
+.team-section {
     background-color: #F4F4FD;
     padding: 40px 20px;
   }
@@ -221,6 +221,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
   }
+  
   
   /* Четверта секція */
  .portfolio-section {
