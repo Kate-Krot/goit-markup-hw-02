@@ -91,26 +91,39 @@ body {
   
   
   /* Main Styles */
-  .hero-section {
+ /* Перша секція */
+.hero-section {
+    background-color: #2e2f42;
+    text-align: center;
     padding: 40px 20px;
-    background-color: #eaeaea;
+  }
+  
+  /* Стилі для заголовка */
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
     text-align: center;
   }
   
-  .hero-title {
-    font-size: 36px;
-  }
-  
+  /* Стилі для кнопки */
   .btn-order {
-    background-color: #007bff;
-    color: white;
+    background-color: #4d5ae5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
   }
   
-  .btn-order:hover {
-    background-color: #0056b3;
+  .btn-order:hover,
+  .btn-order:focus {
+    background-color: #404bbf;
   }
   
   /* Strategy Section */
