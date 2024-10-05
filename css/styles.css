@@ -1,32 +1,16 @@
 /* General Styles */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     color: #434455;
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
+    background-color: #fff;
   }
-  
   a {
     text-decoration: none;
-    color: inherit;
+  }
+  ul {
+    list-style-type: none;
   }
   
-  h1, h2, h3, p {
-    margin: 0 0 20px;
-  }
-  
-  /* Header Styles */
-  header {
-    background-color: #f8f8f8;
-    padding: 20px 0;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
   
   /* Стилі для логотипа */
  .logo {
@@ -39,7 +23,7 @@ body {
     
   }
   
-  .logo-span {
+  .logospan {
     color: #2e2f42; 
   }
   
