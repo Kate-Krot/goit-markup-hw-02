@@ -25,15 +25,9 @@ body {
   
   .logospan {
     color: #2e2f42; 
-  }
+}
   
-  /* Стилі для навігації */
-  .nav-list {
-    list-style: none;
-    display: flex;
-  }
-  
-  .nav-link {
+  .navlink {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -43,19 +37,17 @@ body {
     margin-left: 20px;
   }
   
-  .nav-link:hover,
-  .nav-link:focus {
+  .navlink:hover,
+  .navlink:focus {
     color: #404bbf;
   }
   
   /* Стилі для контактної інформації */
-  .contact-info ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
+  .contact-info  {
+    font-style: normal;
   }
   
-  .contact-link {
+  .contactlink {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -64,8 +56,8 @@ body {
     margin-right: 20px;
   }
   
-  .contact-link:hover,
-  .contact-link:focus {
+  .contactlink:hover,
+  .contactlink:focus {
     color: #404bbf;
   }
   
