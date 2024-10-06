@@ -3,12 +3,32 @@ body {
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #fff;
+    
+   }
+  
+  h1, h2, h3,  p, ul {
+    margin: 0;
+    padding: 0;
+ }
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 20px; 
   }
+.section {
+  padding: 120px 0;
+  }
+  header {
+    border-bottom: 1px solid #e0e0e0; 
+}
+
+ 
   a {
     text-decoration: none;
   }
   ul {
     list-style-type: none;
+   
   }
   
   
@@ -184,9 +204,7 @@ body {
   
   
   /* Четверта секція */
- .portfolio-section {
-    background-color: #F4F4FD;
-  }
+ 
   
   /* Заголовок секції */
   .portfolio-title {
@@ -196,6 +214,10 @@ body {
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
+    .portfolio-item {
+    border-bottom: 2px solid #2e2f42; 
+  }
+  
   }
   
   /* Список портфоліо */
